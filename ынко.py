@@ -1,7 +1,8 @@
 from random import randint
-
-word="натрий"
-
+words = ["натрий","водород","кислород","уран","азот"]
+random_index =randint(0, 4)
+word = words[random_index]
+print(word)
 game=True
 
 lives = 10
