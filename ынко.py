@@ -8,7 +8,7 @@ lives = 10
 
 while game :
    leter=input("введите букву или слово: ")
-
+   print("*"+"___*"*len(word))
    if leter==word:
       print("ТЫ ПОБЕДИЛ game over")
       game=False
