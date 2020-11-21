@@ -1,8 +1,10 @@
 from random import randint
 
 word="натрий"
-score=10
+
 game=True
+
+lives = 10
 
 while game :
    leter=input("введите букву или слово: ")
@@ -17,4 +19,7 @@ while game :
 
    if leter not in word:
       print("нет")
-      score=score-1
+      lives=lives-1
+      print("осталось", lives,"жизней")
+   if lives == 0:
+      game = False
