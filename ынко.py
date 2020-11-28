@@ -17,10 +17,11 @@ while game :
 
    elif leter in word:
       print ("есть такая буква")
-
+      letters.append(letter)
    if leter not in word:
       print("нет")
       lives=lives-1
-      print("осталось", lives,"жизней")
+   print("осталось", lives,"жизней")
+   print("Угаданные буквы:",letter)
    if lives == 0:
       game = False
