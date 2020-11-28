@@ -16,7 +16,7 @@ while game :
    if len(letter)<1
       print("Надо ввести букву или слово")
 
-      elif len(letter)==1
+   elif len(letter)==1
          if letter==word:
             if letter not in letters:
              print("Есть такая буква")
