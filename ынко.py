@@ -7,6 +7,7 @@ game=True
 
 lives = 10
 
+letters=[]
 while game :
    leter=input("введите букву или слово: ")
    print("*"+"___*"*len(word))
