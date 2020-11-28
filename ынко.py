@@ -12,6 +12,19 @@ while game :
    print ()
    print()
    print("*"+"___*"*len(word))
+   i=0
+   toPrint=''
+   
+   while i < len(word):
+        if wopd [i] in letters:
+            toPrint=toPrint+word[i]
+        else:
+            toPrint=toPrint+" _ "
+   print(toPrint)
+        
+
+
+   
    letter=input("введите букву или слово: ")
    
    if len(letter)<1:
