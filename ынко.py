@@ -23,6 +23,6 @@ while game :
       print("нет")
       lives=lives-1
    print("осталось", lives,"жизней")
-   print("Угаданные буквы:",letter)
+   print("Угаданные буквы:",letters)
    if lives == 0:
       game = False
