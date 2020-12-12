@@ -11,7 +11,7 @@ letters=[]
 while game :
    print ()
    print()
-   #print("*"+___*"*len(word))
+   #print("*"+"___*"*len(word))
    i=0
    toPrint=''
    
@@ -20,7 +20,7 @@ while game :
             toPrint=toPrint+word[i]
         else:
             toPrint=toPrint+" _ "
-            i =i+1
+        i =i+1
    print(toPrint)
         
 
